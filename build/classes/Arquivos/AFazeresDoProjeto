@@ -1,0 +1,20 @@
+ok1- Ao inves de nova classe -> novo conceito
+ok2- Fazer gerar um arquivo só para Classe, atributos e referencias{json ainda é string}
+ok3- Passar caminho de arquivos de projeto e conceito(arquivo.json), para o arquivo gerar a arvore
+4- Criar uma Model para gerar a arvore e controlar o index
+    ok4.1- Retirar botão "Teste" de index.java
+5- Aperfeiçoar árvore:
+	5.1- Exibir nó atributos e referencias
+	5.2- Mudar icones dos nós
+	5.3- Colocar botão para adicionar nó de atributo, nó de classe, nó de referencias 
+	5.4- Abrir janela da para editar propriedades do nó
+6- EDITOR
+	6.- Abrir janela de editor no index, mexer no nodel de INDEX 
+	6.- Adicionar ferramentas de desenho: lápis, borracha, seleção, formas geométricas 
+	6.- Botão de adicionar imagem()
+	6.- Salvar imagem em pasta de projeto
+	6.- Criar formulário para editar propriedades para cada imagem
+	6.- 
+	6.- 
+	6.- 
+	6.- 

@@ -1,0 +1,52 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Back;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+
+/**
+ *
+ * @author Vieira
+ */
+public class Projeto {
+    
+    public static void main(String[] args) throws JSONException {
+     
+         json = "{\"nomeProjeto\":\"nomeProjeto\",\"dominio\":nomeDominio, \"caminho\":\"caminho\"}";
+        
+        JSONObject my_obj = new JSONObject(json);
+
+        String nomeProjeto = my_obj.getString("nomeProjeto");
+        String dominio = my_obj.getString("dominio");
+        String caminho = my_obj.getString("caminho");
+
+        System.out.println("nomeProjeto: " + nomeProjeto);
+        System.out.println("dominio: " + dominio);
+        System.out.println("caminho: " + caminho);
+    }
+    
+    
+    /*  '{"nomeClasse":[
+                    "classe":"{\"caminho\":\"Ação\",\"nomeProjeto\":\"JSON x XML: a Batalha Final\",\"dominio\":2012}",
+                    "atributo":"caminho",
+                    "referencia":"dominio"                                                            
+                  "]"
+            
+
+            "}";//fecha json
+    
+    String  json = '{"projeto":[
+                    "nomeProjeto":"nomeProjeto",
+                    "caminho":"caminho",
+                    "dominio":"dominio"                                                            
+                  "]}"
+    */
+
+    }
+}
+
+
